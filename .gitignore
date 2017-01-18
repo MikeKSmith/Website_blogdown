@@ -1,8 +1,6 @@
-.Rproj.user
 .Rhistory
-.RData
-.Ruserdata
+*.Rproj
+/static/
 /themes/
-*
-!/docs/
 mdlSpecification.Rproj
+.Rproj.user

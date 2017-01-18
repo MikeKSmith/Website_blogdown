@@ -1,11 +1,11 @@
-baseurl = "https://mikeksmith.github.io/website/"
+baseurl = "http://www.mdl.community/"
 title = "MDL Community website"
 theme = "ghostwriter"
 languageCode = "en-us"
 copyright = "Mike K Smith"
-disqusShortname = "XXX"
 googleAnalytics = "UA-86793002-1"
 publishdir = "docs"
+canonifyURLs = true
 
 [Author]
     name = "Mike K Smith"
@@ -18,15 +18,15 @@ publishdir = "docs"
     intro = true
     headline = "Model Description Language (MDL)"
     description = "Providing a resource for encoding models with MDL, helping you understand MDL structure and features and providing a place for you to log bugs, issues, feature requests and suggestions."
-    github = "https://github.com/ModelDefinitionLanguage/mdlSpecification"
-    twitter = "https://twitter.com/DDMoRe_IMI"
+    github = "https://github.com/ModelDefinitionLanguage/"
+    twitter = "https://twitter.com/DDMoRe_FDN"
     opengraph = true
 
 [Permalinks]
     post = "/:year/:month/:day/:filename/"
 
 [[menu.main]]
-    name = "Blog"
+    name = "Home"
     url = "/"
     weight = 1
 
@@ -36,11 +36,16 @@ publishdir = "docs"
     weight = 2
 
 [[menu.main]]
+    name = "MDL UserGuide"
+    url = "https://modeldefinitionlanguage.github.io/MDLUserGuide/"
+    weight = 3
+
+[[menu.main]]
     name = "MDL FAQ"
     url = "/page/faq/"
-    weight = 3
+    weight = 4
 
 [[menu.main]]
     name = "About"
     url = "/page/about/"
-    weight = 4
+    weight = 5
